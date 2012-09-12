@@ -1,0 +1,6 @@
+To install the zip codes into the MongoPlay database:
+
+1) open a shell in your mongodb /bin directory
+2) run this from the shell: c:\dev\datastores\mongodb-2.2.0\bin>mongoimport -d MongoPlay -c zipcodes --file c:\dev\projects\grails\compiledammit\mongodb\MongoPlay\scripts\zips.json
+
+Replacing the path to the zips.json file with the path as it lives on your filesystem
